@@ -1,0 +1,6 @@
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\bin\Debug\GeneticData.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\bin\Debug\GeneticData.pdb
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\obj\Debug\GeneticData.csprojAssemblyReference.cache
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\obj\Debug\GeneticData.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\obj\Debug\GeneticData.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\obj\Debug\GeneticData.pdb

@@ -1,0 +1,11 @@
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.csprojAssemblyReference.cache
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\bin\Debug\ArtificialNeuralNetwork.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\bin\Debug\ArtificialNeuralNetwork.pdb
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\bin\Debug\GeneticData.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\bin\Debug\GeneticData.pdb
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.csproj.CopyComplete
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.pdb
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\bin\Debug\MathNet.Numerics.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\bin\Debug\MathNet.Numerics.xml

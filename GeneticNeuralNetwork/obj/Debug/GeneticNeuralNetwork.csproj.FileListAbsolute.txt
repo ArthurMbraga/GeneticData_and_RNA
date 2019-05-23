@@ -1,0 +1,13 @@
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\bin\Debug\GeneticNeuralNetwork.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\bin\Debug\GeneticNeuralNetwork.pdb
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\bin\Debug\ArtificialNeuralNetwork.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\bin\Debug\GeneticData.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\bin\Debug\ArtificialNeuralNetwork.pdb
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\bin\Debug\GeneticData.pdb
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\obj\Debug\GeneticNeuralNetwork.csprojAssemblyReference.cache
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\obj\Debug\GeneticNeuralNetwork.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\obj\Debug\GeneticNeuralNetwork.csproj.CopyComplete
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\obj\Debug\GeneticNeuralNetwork.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\obj\Debug\GeneticNeuralNetwork.pdb
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\bin\Debug\MathNet.Numerics.dll
+C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticNeuralNetwork\bin\Debug\MathNet.Numerics.xml
