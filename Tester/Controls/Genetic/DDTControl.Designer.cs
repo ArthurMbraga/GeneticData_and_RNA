@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chartDispertion = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.buttonRandom = new System.Windows.Forms.Button();
             this.buttonGenetic = new System.Windows.Forms.Button();
             this.buttonBinary = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.chartDispertion)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -47,16 +47,16 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.chartDispertion.BorderlineColor = System.Drawing.Color.Black;
             this.chartDispertion.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea3.Name = "ChartArea1";
-            this.chartDispertion.ChartAreas.Add(chartArea3);
+            chartArea1.Name = "ChartArea1";
+            this.chartDispertion.ChartAreas.Add(chartArea1);
             this.chartDispertion.Location = new System.Drawing.Point(199, 0);
             this.chartDispertion.Name = "chartDispertion";
-            series3.ChartArea = "ChartArea1";
-            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series3.MarkerSize = 2;
-            series3.Name = "Series1";
-            this.chartDispertion.Series.Add(series3);
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series1.MarkerSize = 2;
+            series1.Name = "Series1";
+            this.chartDispertion.Series.Add(series1);
             this.chartDispertion.Size = new System.Drawing.Size(621, 490);
             this.chartDispertion.TabIndex = 6;
             this.chartDispertion.Text = "chart2";
@@ -73,6 +73,18 @@
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Random Numbers Distribution";
+            // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.Location = new System.Drawing.Point(6, 106);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(178, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Derivate";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.ButtonDerivate_Click);
             // 
             // buttonRandom
             // 
@@ -102,6 +114,7 @@
             // 
             this.buttonBinary.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonBinary.Enabled = false;
             this.buttonBinary.Location = new System.Drawing.Point(6, 48);
             this.buttonBinary.Name = "buttonBinary";
             this.buttonBinary.Size = new System.Drawing.Size(178, 23);
@@ -109,18 +122,6 @@
             this.buttonBinary.Text = "Binary";
             this.buttonBinary.UseVisualStyleBackColor = true;
             this.buttonBinary.Click += new System.EventHandler(this.ButtonBinary_Click);
-            // 
-            // button1
-            // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.Location = new System.Drawing.Point(6, 106);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 23);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Derivate";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.ButtonDerivate_Click);
             // 
             // DDTControl
             // 

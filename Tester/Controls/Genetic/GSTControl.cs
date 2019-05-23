@@ -44,7 +44,7 @@ namespace Tester
             chartGeneSelection.Series[0].Points.Clear();
 
             //Start Population
-            Parallel.For(0, pop_size, i => population[i] = new Gene(RandomizationType.FullRandom));
+            Parallel.For(0, pop_size, i => population[i] = new Gene(MainForm.RandomizationType));
 
 
             //Start Simulation
@@ -146,7 +146,7 @@ namespace Tester
 
             //Start Population
             for (int i = 0; i < pop_size; i++)
-                population[i] = new Gene(RandomizationType.FullRandom);
+                population[i] = new Gene(MainForm.RandomizationType);
 
 
             for (int i = 0; i < generations; i++)

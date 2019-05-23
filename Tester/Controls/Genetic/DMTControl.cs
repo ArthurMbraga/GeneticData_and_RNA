@@ -17,7 +17,7 @@ namespace Tester.Controls
             CA.InnerPlotPosition = new ElementPosition(4, 2, 95, 93);
 
 
-            Gene g = new Gene(RandomizationType.FullRandom);
+            Gene g = new Gene(MainForm.RandomizationType);
 
             textBoxG3.Text = g.GetDnaSequenceReadable(false);
             textBoxV3.Text = g.Value.ToString();
@@ -26,7 +26,7 @@ namespace Tester.Controls
 
         private void ButtonRandomStructure_Click(object sender, EventArgs e)
         {
-            Gene g = new Gene(RandomizationType.FullRandom);
+            Gene g = new Gene(MainForm.RandomizationType);
             textBoxG3.Text = g.GetDnaSequenceReadable(false);
             textBoxV3.Text = g.Value.ToString();
             labelGC3.Text = g.DnaSequence.ToString();
@@ -62,7 +62,6 @@ namespace Tester.Controls
             float deviation = 0;
             float percent;
 
-            Gene.MutationChance = Convert.ToSingle(textBoxMutation2.Text);
 
             richTextBoxResults.Text = "";
 

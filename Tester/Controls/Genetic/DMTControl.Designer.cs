@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.chartMutation = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.textBoxDeviation2 = new System.Windows.Forms.TextBox();
@@ -48,8 +48,6 @@
             this.label17 = new System.Windows.Forms.Label();
             this.richTextBoxResults = new System.Windows.Forms.RichTextBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.textBoxMutation2 = new System.Windows.Forms.TextBox();
-            this.label18 = new System.Windows.Forms.Label();
             this.buttonMutate = new System.Windows.Forms.Button();
             this.textBoxTimes2 = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
@@ -71,29 +69,29 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.chartMutation.BorderlineColor = System.Drawing.Color.Black;
             this.chartMutation.BorderlineDashStyle = System.Windows.Forms.DataVisualization.Charting.ChartDashStyle.Dash;
-            chartArea2.Name = "ChartArea1";
-            this.chartMutation.ChartAreas.Add(chartArea2);
+            chartArea1.Name = "ChartArea1";
+            this.chartMutation.ChartAreas.Add(chartArea1);
             this.chartMutation.Location = new System.Drawing.Point(0, 217);
             this.chartMutation.Name = "chartMutation";
-            series4.BorderWidth = 2;
-            series4.ChartArea = "ChartArea1";
-            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series4.Color = System.Drawing.Color.Maroon;
-            series4.Name = "SeriesValue";
-            series5.BorderWidth = 2;
-            series5.ChartArea = "ChartArea1";
-            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
-            series5.Color = System.Drawing.Color.DarkGreen;
-            series5.Name = "SeriesMutationAverage";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
-            series6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            series6.MarkerSize = 4;
-            series6.Name = "SeriesMutations";
-            series6.YValuesPerPoint = 2;
-            this.chartMutation.Series.Add(series4);
-            this.chartMutation.Series.Add(series5);
-            this.chartMutation.Series.Add(series6);
+            series1.BorderWidth = 2;
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series1.Color = System.Drawing.Color.Maroon;
+            series1.Name = "SeriesValue";
+            series2.BorderWidth = 2;
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Line;
+            series2.Color = System.Drawing.Color.DarkGreen;
+            series2.Name = "SeriesMutationAverage";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Point;
+            series3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            series3.MarkerSize = 4;
+            series3.Name = "SeriesMutations";
+            series3.YValuesPerPoint = 2;
+            this.chartMutation.Series.Add(series1);
+            this.chartMutation.Series.Add(series2);
+            this.chartMutation.Series.Add(series3);
             this.chartMutation.Size = new System.Drawing.Size(820, 273);
             this.chartMutation.TabIndex = 17;
             // 
@@ -239,8 +237,6 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.textBoxMutation2);
-            this.groupBox5.Controls.Add(this.label18);
             this.groupBox5.Controls.Add(this.buttonMutate);
             this.groupBox5.Controls.Add(this.textBoxTimes2);
             this.groupBox5.Controls.Add(this.label16);
@@ -252,31 +248,14 @@
             this.groupBox5.Controls.Add(this.buttonRandomStructure);
             this.groupBox5.Location = new System.Drawing.Point(3, 1);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(404, 123);
+            this.groupBox5.Size = new System.Drawing.Size(286, 123);
             this.groupBox5.TabIndex = 14;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Base";
             // 
-            // textBoxMutation2
-            // 
-            this.textBoxMutation2.Location = new System.Drawing.Point(51, 84);
-            this.textBoxMutation2.Name = "textBoxMutation2";
-            this.textBoxMutation2.Size = new System.Drawing.Size(90, 20);
-            this.textBoxMutation2.TabIndex = 16;
-            this.textBoxMutation2.Text = "0,01";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(0, 87);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(51, 13);
-            this.label18.TabIndex = 15;
-            this.label18.Text = "Mutation:";
-            // 
             // buttonMutate
             // 
-            this.buttonMutate.Location = new System.Drawing.Point(151, 83);
+            this.buttonMutate.Location = new System.Drawing.Point(158, 90);
             this.buttonMutate.Name = "buttonMutate";
             this.buttonMutate.Size = new System.Drawing.Size(73, 20);
             this.buttonMutate.TabIndex = 14;
@@ -286,7 +265,7 @@
             // 
             // textBoxTimes2
             // 
-            this.textBoxTimes2.Location = new System.Drawing.Point(51, 58);
+            this.textBoxTimes2.Location = new System.Drawing.Point(51, 90);
             this.textBoxTimes2.Name = "textBoxTimes2";
             this.textBoxTimes2.Size = new System.Drawing.Size(90, 20);
             this.textBoxTimes2.TabIndex = 13;
@@ -295,7 +274,7 @@
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(7, 61);
+            this.label16.Location = new System.Drawing.Point(7, 93);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(38, 13);
             this.label16.TabIndex = 12;
@@ -303,8 +282,7 @@
             // 
             // textBoxV3
             // 
-            this.textBoxV3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBoxV3.Location = new System.Drawing.Point(321, 19);
+            this.textBoxV3.Location = new System.Drawing.Point(50, 58);
             this.textBoxV3.Name = "textBoxV3";
             this.textBoxV3.ReadOnly = true;
             this.textBoxV3.Size = new System.Drawing.Size(66, 20);
@@ -314,7 +292,7 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.Maroon;
-            this.label13.Location = new System.Drawing.Point(281, 22);
+            this.label13.Location = new System.Drawing.Point(10, 61);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(37, 13);
             this.label13.TabIndex = 10;
@@ -392,8 +370,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.RichTextBox richTextBoxResults;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.TextBox textBoxMutation2;
-        private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Button buttonMutate;
         private System.Windows.Forms.TextBox textBoxTimes2;
         private System.Windows.Forms.Label label16;

@@ -51,7 +51,7 @@ namespace Tester.Controls
 
             for (int i = 0; i < 1000; i++)
             {
-                Gene d = new Gene(RandomizationType.FullRandom);
+                Gene d = new Gene(MainForm.RandomizationType);
                 genes.Add(d);
             }
 

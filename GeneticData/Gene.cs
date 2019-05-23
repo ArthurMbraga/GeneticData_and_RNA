@@ -58,8 +58,7 @@ namespace GeneticData
                 ProcessDnaSequence();
             }
         }
-
-               
+       
         public Gene(RandomizationType randomizationType)
         {
             switch (randomizationType)

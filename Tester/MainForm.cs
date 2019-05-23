@@ -1,12 +1,13 @@
-﻿using System;
+﻿using GeneticData;
+using System;
 using System.Windows.Forms;
 
 namespace Tester
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
+        public static RandomizationType RandomizationType { get; private set; }
 
-        public static Random random = new Random();
 
         private readonly Tip[] toolTips = {
             new Tip("Gene Selection Test",
@@ -47,9 +48,11 @@ namespace Tester
         /*foreach (TabPage tPage in tabControl.TabPages)
                 Console.WriteLine("new Tip(\"" + tPage.Text + "\", \"...\" ),");*/
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
+
+            RandomizationType = checkBoxPattern.Checked ? RandomizationType.Pattern : RandomizationType.FullRandom;
 
             //Tab toolTip
             tabControlGenetic.ShowToolTips = true;
@@ -60,6 +63,16 @@ namespace Tester
                         tPage.ToolTipText = tip.Text;
                         break;
                     }
+        }
+
+        private void NumericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+            Gene.MutationChance = (float)numericUpDownMutation.Value;
+        }
+
+        private void CheckBoxPattern_CheckedChanged(object sender, EventArgs e)
+        {
+            RandomizationType = checkBoxPattern.Checked ? RandomizationType.Pattern : RandomizationType.FullRandom;
         }
     }
 }

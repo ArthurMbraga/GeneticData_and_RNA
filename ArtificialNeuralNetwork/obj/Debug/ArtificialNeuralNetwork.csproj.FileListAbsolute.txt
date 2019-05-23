@@ -9,3 +9,14 @@ C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeur
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.pdb
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\bin\Debug\MathNet.Numerics.dll
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\ArtificialNeuralNetwork\bin\Debug\MathNet.Numerics.xml
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\bin\Debug\ArtificialNeuralNetwork.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\bin\Debug\ArtificialNeuralNetwork.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\bin\Debug\GeneticData.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\bin\Debug\MathNet.Numerics.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\bin\Debug\GeneticData.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\bin\Debug\MathNet.Numerics.xml
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.csprojAssemblyReference.cache
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.csproj.CopyComplete
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\ArtificialNeuralNetwork\obj\Debug\ArtificialNeuralNetwork.pdb

@@ -12,8 +12,8 @@ namespace Tester.Controls
         {
             InitializeComponent();
 
-            Gene g1 = new Gene(RandomizationType.FullRandom);
-            Gene g2 = new Gene(RandomizationType.FullRandom);
+            Gene g1 = new Gene(MainForm.RandomizationType);
+            Gene g2 = new Gene(MainForm.RandomizationType);
 
             textBoxG1.Text = g1.GetDnaSequenceReadable(false);
             textBoxV1.Text = g1.Value.ToString();
@@ -22,9 +22,6 @@ namespace Tester.Controls
             textBoxG2.Text = g2.GetDnaSequenceReadable(false);
             textBoxV2.Text = g2.Value.ToString();
             labelGC2.Text = g2.DnaSequence.ToString();
-
-            textBoxMutation.Text = Gene.MutationChance.ToString();
-
 
             ChartArea CA = chartDistribution.ChartAreas[0];
             CA.Position = new ElementPosition(0, 0, 100, 100);
@@ -61,8 +58,7 @@ namespace Tester.Controls
         }
 
         private void ButtonRun_Click(object sender, EventArgs e)
-        {
-            Gene.MutationChance = Convert.ToSingle(textBoxMutation.Text);
+        {            
             chartDistribution.Series[0].Points.Clear();
             chartDistribution.Series[1].Points.Clear();
             chartDistribution.Series[2].Points.Clear();
@@ -71,7 +67,7 @@ namespace Tester.Controls
 
 
             int times = Convert.ToInt32(textBoxTimes.Text);
-            Gene.MutationChance = Convert.ToSingle(textBoxMutation.Text);
+            
 
             Gene g1 = new Gene(Gene.GetDnaSequenceByReadable(textBoxG1.Text));
             Gene g2 = new Gene(Gene.GetDnaSequenceByReadable(textBoxG2.Text));
@@ -182,7 +178,7 @@ namespace Tester.Controls
 
         private void ButtonRandomStructure1_Click(object sender, EventArgs e)
         {
-            Gene g = new Gene(RandomizationType.FullRandom);
+            Gene g = new Gene(MainForm.RandomizationType);
             textBoxG1.Text = g.GetDnaSequenceReadable(false);
             textBoxV1.Text = g.Value.ToString();
             labelGC1.Text = g.DnaSequence.ToString();
@@ -190,7 +186,7 @@ namespace Tester.Controls
 
         private void ButtonRandomStructure2_Click(object sender, EventArgs e)
         {
-            Gene g = new Gene(RandomizationType.FullRandom);
+            Gene g = new Gene(MainForm.RandomizationType);
             textBoxG2.Text = g.GetDnaSequenceReadable(false);
             textBoxV2.Text = g.Value.ToString();
             labelGC2.Text = g.DnaSequence.ToString();

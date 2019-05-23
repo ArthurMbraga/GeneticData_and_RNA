@@ -23,3 +23,28 @@ C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\Tester\bin\Deb
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\Tester\bin\Debug\GeneticNeuralNetwork.pdb
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\Tester\bin\Debug\MathNet.Numerics.dll
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\Tester\bin\Debug\MathNet.Numerics.xml
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\Tester.exe.config
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\Tester.exe
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\Tester.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\ArtificialNeuralNetwork.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\GeneticData.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\GeneticNeuralNetwork.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\MathNet.Numerics.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\ArtificialNeuralNetwork.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\GeneticData.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\GeneticNeuralNetwork.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\bin\Debug\MathNet.Numerics.xml
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.csprojAssemblyReference.cache
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.Controls.GeneticNeural.GNNSTControl.resources
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.Controls.COGTControl.resources
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.Controls.CSTControl.resources
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.Controls.DDTControl.resources
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.Controls.DMTControl.resources
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.GSTControl.resources
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.Properties.Resources.resources
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.csproj.GenerateResource.cache
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.csproj.CopyComplete
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.exe
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\Tester\obj\Debug\Tester.MainForm.resources

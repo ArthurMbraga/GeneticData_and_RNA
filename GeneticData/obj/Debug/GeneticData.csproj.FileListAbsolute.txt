@@ -4,3 +4,9 @@ C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\ob
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\obj\Debug\GeneticData.csproj.CoreCompileInputs.cache
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\obj\Debug\GeneticData.dll
 C:\Users\Arthur\Documents\Visual Studio 2017\Projects\GeneticData\GeneticData\obj\Debug\GeneticData.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\GeneticData\bin\Debug\GeneticData.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\GeneticData\bin\Debug\GeneticData.pdb
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\GeneticData\obj\Debug\GeneticData.csprojAssemblyReference.cache
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\GeneticData\obj\Debug\GeneticData.csproj.CoreCompileInputs.cache
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\GeneticData\obj\Debug\GeneticData.dll
+C:\Users\Arthur\Dropbox\Progamação\Visual Studio\C#\GeneticData_and_RNA\GeneticData\obj\Debug\GeneticData.pdb

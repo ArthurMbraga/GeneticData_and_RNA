@@ -1,6 +1,6 @@
 ﻿namespace Tester
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -39,15 +39,19 @@
             this.tabPageCST = new System.Windows.Forms.TabPage();
             this.cstControl1 = new Tester.Controls.CSTControl();
             this.tabPageGST = new System.Windows.Forms.TabPage();
-            this.gstControl1 = new Tester.GSTControl();
+            this.gstControl = new Tester.GSTControl();
             this.tabControlGenetic = new System.Windows.Forms.TabControl();
             this.tabControlType = new System.Windows.Forms.TabControl();
             this.tabPageGenetic = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.numericUpDownMutation = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.checkBoxPattern = new System.Windows.Forms.CheckBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.gnnstControl1 = new Tester.Controls.GeneticNeural.GNNSTControl();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
             this.tabPageDDT.SuspendLayout();
             this.tabPageDMT.SuspendLayout();
             this.tabPageCOGT.SuspendLayout();
@@ -56,6 +60,8 @@
             this.tabControlGenetic.SuspendLayout();
             this.tabControlType.SuspendLayout();
             this.tabPageGenetic.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMutation)).BeginInit();
             this.tabPage2.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -136,7 +142,7 @@
             // 
             // tabPageGST
             // 
-            this.tabPageGST.Controls.Add(this.gstControl1);
+            this.tabPageGST.Controls.Add(this.gstControl);
             this.tabPageGST.Location = new System.Drawing.Point(4, 22);
             this.tabPageGST.Name = "tabPageGST";
             this.tabPageGST.Size = new System.Drawing.Size(803, 480);
@@ -144,13 +150,13 @@
             this.tabPageGST.Text = "Gene Selection Test";
             this.tabPageGST.UseVisualStyleBackColor = true;
             // 
-            // gstControl1
+            // gstControl
             // 
-            this.gstControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.gstControl1.Location = new System.Drawing.Point(0, 0);
-            this.gstControl1.Name = "gstControl1";
-            this.gstControl1.Size = new System.Drawing.Size(803, 480);
-            this.gstControl1.TabIndex = 0;
+            this.gstControl.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gstControl.Location = new System.Drawing.Point(0, 0);
+            this.gstControl.Name = "gstControl";
+            this.gstControl.Size = new System.Drawing.Size(803, 480);
+            this.gstControl.TabIndex = 0;
             // 
             // tabControlGenetic
             // 
@@ -159,7 +165,7 @@
             this.tabControlGenetic.Controls.Add(this.tabPageCOGT);
             this.tabControlGenetic.Controls.Add(this.tabPageDMT);
             this.tabControlGenetic.Controls.Add(this.tabPageDDT);
-            this.tabControlGenetic.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControlGenetic.Dock = System.Windows.Forms.DockStyle.Left;
             this.tabControlGenetic.Location = new System.Drawing.Point(3, 3);
             this.tabControlGenetic.Margin = new System.Windows.Forms.Padding(0);
             this.tabControlGenetic.Name = "tabControlGenetic";
@@ -175,19 +181,76 @@
             this.tabControlType.Location = new System.Drawing.Point(0, 0);
             this.tabControlType.Name = "tabControlType";
             this.tabControlType.SelectedIndex = 0;
-            this.tabControlType.Size = new System.Drawing.Size(825, 538);
+            this.tabControlType.Size = new System.Drawing.Size(946, 538);
             this.tabControlType.TabIndex = 1;
             // 
             // tabPageGenetic
             // 
+            this.tabPageGenetic.Controls.Add(this.groupBox1);
             this.tabPageGenetic.Controls.Add(this.tabControlGenetic);
             this.tabPageGenetic.Location = new System.Drawing.Point(4, 22);
             this.tabPageGenetic.Name = "tabPageGenetic";
             this.tabPageGenetic.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPageGenetic.Size = new System.Drawing.Size(817, 512);
+            this.tabPageGenetic.Size = new System.Drawing.Size(938, 512);
             this.tabPageGenetic.TabIndex = 0;
             this.tabPageGenetic.Text = "Genetic Data";
             this.tabPageGenetic.UseVisualStyleBackColor = true;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.numericUpDownMutation);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.checkBoxPattern);
+            this.groupBox1.Location = new System.Drawing.Point(817, 17);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(119, 93);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "General Config";
+            // 
+            // numericUpDownMutation
+            // 
+            this.numericUpDownMutation.DecimalPlaces = 5;
+            this.numericUpDownMutation.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.numericUpDownMutation.Location = new System.Drawing.Point(6, 61);
+            this.numericUpDownMutation.Maximum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numericUpDownMutation.Name = "numericUpDownMutation";
+            this.numericUpDownMutation.Size = new System.Drawing.Size(107, 20);
+            this.numericUpDownMutation.TabIndex = 1;
+            this.numericUpDownMutation.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            131072});
+            this.numericUpDownMutation.ValueChanged += new System.EventHandler(this.NumericUpDown1_ValueChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(3, 45);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(91, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Mutation Chance:";
+            // 
+            // checkBoxPattern
+            // 
+            this.checkBoxPattern.AutoSize = true;
+            this.checkBoxPattern.Location = new System.Drawing.Point(6, 22);
+            this.checkBoxPattern.Name = "checkBoxPattern";
+            this.checkBoxPattern.Size = new System.Drawing.Size(60, 17);
+            this.checkBoxPattern.TabIndex = 0;
+            this.checkBoxPattern.Text = "Pattern";
+            this.checkBoxPattern.UseVisualStyleBackColor = true;
+            this.checkBoxPattern.CheckedChanged += new System.EventHandler(this.CheckBoxPattern_CheckedChanged);
             // 
             // tabPage2
             // 
@@ -195,7 +258,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(817, 512);
+            this.tabPage2.Size = new System.Drawing.Size(938, 512);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Genetic Neural Network";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -208,7 +271,7 @@
             this.tabControl1.Location = new System.Drawing.Point(3, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(811, 506);
+            this.tabControl1.Size = new System.Drawing.Size(932, 506);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -217,36 +280,36 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(803, 480);
+            this.tabPage1.Size = new System.Drawing.Size(924, 480);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Selection Test";
             this.tabPage1.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(803, 480);
-            this.tabPage3.TabIndex = 1;
-            this.tabPage3.Text = "tabPage3";
-            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // gnnstControl1
             // 
             this.gnnstControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gnnstControl1.Location = new System.Drawing.Point(3, 3);
             this.gnnstControl1.Name = "gnnstControl1";
-            this.gnnstControl1.Size = new System.Drawing.Size(797, 474);
+            this.gnnstControl1.Size = new System.Drawing.Size(918, 474);
             this.gnnstControl1.TabIndex = 0;
             // 
-            // Form1
+            // tabPage3
+            // 
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(924, 480);
+            this.tabPage3.TabIndex = 1;
+            this.tabPage3.Text = "tabPage3";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(825, 538);
+            this.ClientSize = new System.Drawing.Size(946, 538);
             this.Controls.Add(this.tabControlType);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Tester";
             this.tabPageDDT.ResumeLayout(false);
             this.tabPageDMT.ResumeLayout(false);
@@ -256,6 +319,9 @@
             this.tabControlGenetic.ResumeLayout(false);
             this.tabControlType.ResumeLayout(false);
             this.tabPageGenetic.ResumeLayout(false);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDownMutation)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
@@ -271,7 +337,7 @@
         private System.Windows.Forms.TabPage tabPageGST;
         private System.Windows.Forms.TabControl tabControlGenetic;
         public System.Windows.Forms.ToolTip toolTip;
-        private GSTControl gstControl1;
+        private GSTControl gstControl;
         private Controls.CSTControl cstControl1;
         private Controls.COGTControl cogtControl1;
         private Controls.DMTControl dmtControl1;
@@ -283,6 +349,10 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage3;
         private Controls.GeneticNeural.GNNSTControl gnnstControl1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.CheckBox checkBoxPattern;
+        private System.Windows.Forms.NumericUpDown numericUpDownMutation;
     }
 }
 
